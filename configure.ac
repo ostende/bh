@@ -17,6 +17,7 @@ AC_CONFIG_MACRO_DIR([m4])
 AC_CHECK_HEADERS([dbox/fp.h dbox/lcd-ks0713.h])
 
 AC_PATH_PROG(MSGFMT, msgfmt, AC_MSG_ERROR(Could not find msgfmt))
+AC_PATH_PROG(XGETTEXT, xgettext, AC_MSG_ERROR(Could not find xgettext))
 
 AM_PATH_PYTHON
 AX_PYTHON_DEVEL
